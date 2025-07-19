@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+  
+body {
+  margin: 0;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  background-color:  #e07a5f;
+  color: #333;
+  max-width: 600px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #e74c3c;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #e67e22;
+  margin-top: 25px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.food-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.emoji {
+  font-size: 1.2em;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ddd, transparent);
+  margin: 25px 0;
+}
+
+p, li {
+  word-wrap: break-word;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 15px auto;
+}
+
+ body{
+     justify-content: center;
+     text-align: center;
+     background-color:  #fdf6ec;
+     width: 600px;
+    
+
+  }
+
+header{
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  color: blueviolet;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      left: 30px;
+      padding: 10px 15px;
+      background-color: #6200ea;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 18px;
+      cursor: pointer;
+      display: none;
+      z-index: 9999;
+    }
+    .toggle-btn, .music-btn {
+      position: fixed;
+      z-index: 1000;
+      padding: 10px 14px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      color: white;
+    }
+
+    .toggle-btn {
+      top: 20px;
+      right: 20px;
+      background: #555;
+    }
+
+    .music-btn {
+      bottom: 20px;
+      right: 20px;
+      background: #4CAF50;
+    }
+
+</style>
+
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>food tamu</title>
+</head>
+<body> 
+  <button class="music-btn" onclick="toggleMusic()">🎵 Play Music</button>
+  <button id="backToTop" onclick="scrollToTop()">⬆️</button>
+   <audio id="bg-music" loop>
+    <source src="tu.mp3" type="audio/mpeg">
+  </audio>
+
+<div class="wrapper">
+  <head>
+<h1>Culinary master pieces</h1>
+</head>
+ 
+
+  <ul>
+     <li><a href="page1.html">Home</a></li>
+       <li><a href="page2.html">Bite and bliss</a></li>
+      <li><a href="page3.html">Thrillscape</a></li>
+      <li><a href="page4.html">Poetica</a></li>
+      
+
+   </ul>
+
+  </nav>
+
+     <h4>TOP TEN FAMOUS MEALS ON EARTH</h4>
+
+  <h2><i>Butter Chicken-India</i></h2><br>
+  <img src="food1.jpg" width="100%" height="100%"><br>
+  <p>🍗✨ Imagine tender chicken melting in your mouth, drenched in a silky, spiced tomato-cream sauce...
+🍅🥥 Every bite is a warm hug of buttery bliss, dancing with rich Indian flavors and a hint of sweetness!
+🍛🔥 Served with fluffy naan or rice — it's a creamy, dreamy explosion of joy on your taste buds!</p><br>
+<h2><i>Beef Lasagna (Italy)</i></h2><br>
+<img src="food2.jpg" width="100%" height="100%">
+<p>🍝🔥 Layers on layers of cheesy, meaty goodness — each forkful melts like a warm, savory dream!
+🧀😋 The rich tomato sauce hugs the tender beef and pasta like a love story on a plate!
+🤤❤️ One bite and you're in comfort food heaven — cheesy, saucy, and absolutely unforgettable!</p><br>
+<h2><i>Grilled Tilapia with Ugali & Sukuma Wiki (LUO LAND KWA KINA OMONDI)</i></h2>
+<img src="food3.jpg" width="100%" height="100%">
+<P>🐟🔥 Smoky, juicy grilled tilapia crackles with flavor — perfectly charred on the outside, tender inside!
+🍽️💪 Paired with firm, warm ugali that fills your soul, and sukuma wiki bursting with garlicky goodness!
+😋🌿 Every bite is a celebration of tradition, strength, and pure Kenyan comfort on a plate!</P><br>
+<h2><i>Chicken Alfredo Pasta (USA/Italy)</i></h2><br>
+<img src="food4.jpg" width="100%" height="100%">
+<P>🍝🐔 Creamy Alfredo sauce hugs each pasta strand like a silky blanket, with tender chicken soaking in every drop!
+🧄🧀 A rich blend of garlic, parmesan, and butter makes your taste buds sing with every twirl of the fork!
+🤍😋 It’s smooth, dreamy, and comforting — like a love letter from Italy straight to your plate!</P><br>
+<h2><i>Sushi Platter (Japan mwenye ondara trained Ninjistu)</i></h2><br>
+<img src="food5.jpg" width="100%" height="100%"><br>
+<p>🍣🎌 A sushi platter is pure edible art — colorful rolls packed with fresh fish, creamy avocado, and crisp veggies!
+🌊🍱 Each bite is a wave of flavor: cool, clean, and perfectly balanced with soy, wasabi, and pickled ginger!
+😋✨ It’s light yet luxurious — a fresh, elegant dance of textures that melts in your mouth like magic!</p></body><br>
+<h2><i>Chapati with Beef Stew (Kenya Mambuzi pale Tum Muchiri ken knows)</i></h2>
+<img src="food6.jpg" width="100%" height="100%"><br>
+<p>
+  🥘🥖 Chapati na mchuzi wa nyama ni tamu hadi mwisho wa ulimi – laini kama pamba, na ladha ya mchuzi wake ni moto moto na tamu tamu!
+🍛🔥 Mchuzi una chemsha roho, umejaa vipande vya nyama laini vinavyoyeyuka mdomoni!
+😋💃 Ni chakula cha furaha, cha familia, na cha kupendeza — kila tonge ni baraka kwa moyo na tumbo!
+Najua mahaters mtasema overrated but For me chapo for life manze Haron Muthetia anajua mbona muulizeni😋😋😋
+</p><br>
+<h2><i>Shawarma Wrap (Middle East)<i></h2>
+  <img src="food7.jpg" width="100%" height="100%"><br>
+  <p>🌯🔥 Shawarma wrap is a juicy, sizzling bundle of flavor — tender meat roasted to perfection, wrapped in soft, warm pita!
+🥙🧄 Bursting with creamy garlic sauce, crunchy pickles, and spicy goodness in every bite!
+🤤💥 It's a street food masterpiece — bold, messy, mouthwatering, and totally addictive!
+
+    
+  </p><br>
+  <h2><i>Pilau </i></h2><br>
+  <img src="food8.jpg" width="100%" height="100%"><br>
+  <p>
+    😂 Alright, imagine this:
+
+🌯🔥 It's like meat that spins on a stick until it's super juicy, then they slice it up and put it in soft bread.
+🥙😋 They throw in some creamy white sauce (tastes like heaven), some crunchy stuff (like pickles), and wrap it all tight.
+🤯💥 You bite it — BOOM! Your mouth goes “whoa!” It’s messy, meaty, and crazy delicious. You’ll want five more!
+  </p><br>
+  <h2><i>TACOS</i></h2>
+  <img src="food9.jpg" width="100%" height="100%"><br>
+  <p>🤣 Okay, picture this:
+
+🌮💃 A taco is like a tiny crunchy boat carrying meat, cheese, and dreams — and it sails straight into your mouth!
+🥩🧀 They cram in spicy beef, melty cheese, veggies, and sometimes stuff you didn’t even ask for — but it works!
+🤪🔥 You take a bite and CRUNCH! — the taco explodes like a flavor grenade. You’ll drop stuff everywhere, but you won’t even care!</p><br>
+<h2><i>Sweet & Sour Chicken with Rice (China)</i></h2><br>
+<img src="food10.jpg" width="100%" height="100%"><br>
+<p>
+  🍍🐔 Sweet & sour chicken is like candy and chicken had a delicious baby — crispy, tangy, and sweet all at once!
+🍚🔥 Paired with fluffy rice, it’s a sticky, saucy party in your mouth — messy but totally worth it!
+😋🎉 One bite and your taste buds start dancing like, “Yooo what was THAT?!”
+  
+</p><br>
+
+<br><br>
+<span style="margin-left: 20px;">
+<a href="page1.html"><button>prev</button></a>
+</span>
+<a href="page3.html"><button>next</button></a>
+<footer>
+  
+  <a href= "https://www.linkedin.com/in/fredrick-ondara-617570339/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bd5f6IZceSxidTMqrrOcqfw%3D%3D" >
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+      <p>&#8482active on linkedin</p> 
+    </a>and whatsapp;+254703589175 & +254731055192.
+</footer>
+ <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+
+     function toggleMusic() {
+  const music = document.getElementById("bg-music");
+  const button = document.querySelector(".music-btn");
+  
+  if (music.paused) {
+    music.play();
+    button.innerHTML = "⏸️ Pause Music";
+  } else {
+    music.pause();
+    button.innerHTML = "🎵 Play Music";
+  }
+}
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    window.addEventListener("scroll", () => {
+      const btn = document.getElementById("backToTop");
+      btn.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+
+    const revealElements = document.querySelectorAll('.scroll-reveal');
+    function revealOnScroll() {
+      const windowHeight = window.innerHeight;
+      revealElements.forEach(el => {
+        const elementTop = el.getBoundingClientRect().top;
+        if (elementTop < windowHeight - 50) {
+          el.classList.add('active');
+        }
+      });
+    }
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+
+    function openModal(src) {
+      document.getElementById("imageModal").style.display = "block";
+      document.getElementById("modalImage").src = src;
+    }
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+
+    window.addEventListener("load", () => {
+      document.querySelectorAll(".card img").forEach(img => {
+        img.addEventListener("click", () => openModal(img.src));
+      });
+    });
+  </script>
+</body>
+</html>
